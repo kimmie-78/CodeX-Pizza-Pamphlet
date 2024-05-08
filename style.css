@@ -4,18 +4,15 @@ body {
 }
 
 .pizza{
-    /* box-model */
+    
     border: 1px solid #DB504A;
     padding: 1em;
     margin: 1em;
-    /* margin-left: 8em; */ 
+    
     margin-bottom: 0.5em; 
     border-radius: 1em;
 
-    /* use display: inline-block */
-    /*[width: 20em;
-    display: inline-block;
-     min-height: 38em;*/
+    
 }
 .medium_pizza {
     background-color: #FC9E4F;
@@ -29,17 +26,28 @@ body {
 background-color: #E7BB41  ;
 flex:1;
 }
-.contact_us{
-background-color: #8AC926;
+table {
+    width:100%; 
+    border-collapse: collapse; 
+    background-color: #8AC926;
 }
 
+
+td {
+    padding: 10px; 
+    border: 0px solid #ccc;
+    width:20%
+}
+
+
+
 @media (min-width: 768px) {
-    /* apply this css if the page is wider than 768px */ body {
+   body {
     background-color: #FFD3DA;
     }
  
 @media (min-width: 968px) {
-    /* apply this css if the page is wider than 968px */
+   
     body {
  background-color: #EEF4ED;
 }
